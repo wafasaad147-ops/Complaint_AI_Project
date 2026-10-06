@@ -1,0 +1,143 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    background: #f5f7fb;
+    color: #1f2937;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+    color: #312e81;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6b7280;
+}
+
+.card {
+    background: white;
+    border-radius: 18px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    color: #312e81;
+}
+
+textarea {
+    width: 100%;
+    min-height: 150px;
+    resize: vertical;
+    padding: 16px;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.8;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #6366f1;
+}
+
+button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: #4f46e5;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4338ca;
+}
+
+.privacy {
+    margin-top: 15px;
+    text-align: center;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.result-item {
+    background: #f9fafb;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+.result-item span {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.response-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: #eef2ff;
+    border-radius: 12px;
+    line-height: 1.9;
+}
+
+.response-box p {
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 94%;
+        padding: 30px 0;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>شكوى AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="hero">
+            <h1>شكوى AI 🤖</h1>
+
+            <p>
+                نظام ذكي لتحليل شكاوى العملاء وتصنيفها
+                وتحليل المشاعر واقتراح رد مناسب.
+            </p>
+        </section>
+
+
+        <section class="card">
+
+            <h2>أدخل شكوى العميل</h2>
+
+            <textarea
+                id="complaintInput"
+                placeholder="اكتب شكوى العميل هنا..."
+                rows="6"></textarea>
+
+            <button id="analyzeButton">
+                تحليل الشكوى
+            </button>
+
+            <p class="privacy">
+                🔒 لا يتم حفظ الشكوى أو إرسالها إلى خدمات خارجية.
+            </p>
+
+        </section>
+
+
+        <section id="result" class="card result hidden">
+
+            <h2>نتيجة التحليل</h2>
+
+            <div class="result-item">
+                <strong>التصنيف:</strong>
+                <span id="category"></span>
+            </div>
+
+            <div class="result-item">
+                <strong>المشاعر:</strong>
+                <span id="sentiment"></span>
+            </div>
+
+            <div class="response-box">
+                <strong>الرد المقترح:</strong>
+                <p id="response"></p>
+            </div>
+
+        </section>
+
+
+        <footer>
+            <p>
+                Complaint AI Project | مشروع ذكاء اصطناعي لتحليل الشكاوى
+            </p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
